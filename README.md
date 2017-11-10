@@ -14,6 +14,7 @@
     * Change speed of animations using keyboard shortcuts (slower, faster)
     * Cycle through all enabled animations using keyboard shortcuts (forward, back, demo mode?)
     * Auto-start enables multiple animations at once?
+    * Resume from sleep with the previous animation customizations (brightness, speed)
 
 
 
@@ -33,6 +34,7 @@ There are a few things I want out of the keyboard, and the below list will outli
 * Add VOL+, VOL-, and MUTE keys to the 3, 2, and 1 keys on the f1 function layer (this displaces the default LED controls)
 * *TBD* Add key combo macros to the S and D keys to move between Google Chrome tabs
 * *TBD* Add key combo macros to the W and E keys to move between fullscreen macOS windows (LCTRL + arrow)
+* *TBD* Add shortcut keys in the F1-F8 area for LED control (on/off, bright/dim, play/pause, switch between animations following the YouTube guide [here](https://www.youtube.com/watch?v=Gv5QvRUT9gc))
 
 ## Other Notes
 
