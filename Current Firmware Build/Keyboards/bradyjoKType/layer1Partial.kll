@@ -1,0 +1,47 @@
+Name = "Layer 1 Partial";
+Date = 2018-12-22;
+Version = 1.0;
+Author = "John Brady 2018";
+KLL = 0.5;
+Variant = "standard";
+Layout = "Standard";
+Generator = "NONE";
+Base = "Base";
+
+
+# Easily accesible flash mode
+U"ESC" : flashMode();
+
+# Access Layer 2 for lighting
+U"F2" : layerLock(2), A[layer2_animation](start);
+
+# Right-hand Media Controls 
+U"PAUSE" : CONS"PAUSE";
+U"INSERT" : CONS"PAUSEPLAY";
+U"HOME" : CONS"STOP";
+U"DELETE" : CONS"SCANPREVIOUSTRACK";
+U"END" : CONS"SCANNEXTTRACK";
+U"PAGEUP" : CONS"VOLUMEUP";
+U"PAGEDOWN" : CONS"VOLUMEDOWN";
+
+# Left-hand volume control
+U"1" : CONS"MUTE";
+U"2" : CONS"VOLUMEDOWN";
+U"3" : CONS"VOLUMEUP";
+
+# Left-hand macOS fullscreen window switching and Expose
+U"W" : U"LCTRL" + U"UP";
+U"A" : U"LCTRL" + U"LEFT";
+U"S" : U"LCTRL" + U"DOWN";
+U"D" : U"LCTRL" + U"RIGHT";
+
+# Left-hand macOS Chrome tab switching
+U"Q" : U"LGUI" + U"LALT" + U"LEFT";
+U"E" : U"LGUI" + U"LALT" + U"RIGHT";
+
+
+# Right-hand arrow keys
+U"I" : U"UP";
+U"J" : U"LEFT";
+U"K" : U"DOWN";
+U"L" : U"RIGHT";

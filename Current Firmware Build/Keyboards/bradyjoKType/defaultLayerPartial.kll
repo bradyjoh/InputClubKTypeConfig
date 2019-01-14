@@ -1,0 +1,20 @@
+# Default Layer Partial Definition
+Name = "Default Partial";
+Version = 1.0;
+Author = "John Brady 2018";
+KLL = 0.5;
+Variant = "standard";
+Generator = "NONE";
+Base = "Base";
+Layout = "Standard";
+
+# Modified Date
+Date = 2018-12-22;
+
+
+# Replace the caps lock with a shift to layer 1 while being held
+U"CAPSLOCK" : layerShift(1);
+
+# Switch the Left Alt and Left GUI keys for macOS
+U"LGUI" : U"LALT";
+U"LALT" : U"LGUI";

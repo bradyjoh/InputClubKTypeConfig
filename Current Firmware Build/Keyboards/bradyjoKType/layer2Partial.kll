@@ -1,0 +1,36 @@
+Name = "Layer 2 Partial";
+Date = 2018-12-22;
+Version = 1.0;
+Author = "John Brady 2018";
+KLL = 0.5;
+Variant = "standard";
+Layout = "Standard";
+Generator = "NONE";
+Base = "Base";
+
+# Get out of the layer 2 lock mode without changing the animation
+U"F2" : layerLock(2);
+
+# Shortcuts to the different animations
+U"1" : A[rainbow_wave](start);
+U"2" : A[miami_wave](start);
+U"3" : A[single_color](start);
+U"4" : A[single_color_orange](start);
+U"5" : A[single_color_white](start);
+U"6" : A[layer2_animation](start);
+U"7" : A[tropicana](start);
+U"8" : A[strobeSlow](start);
+U"9" : A[strobeFast](start);
+
+# Adjust LEDs
+U"U" : ledControl( 3, 0 ); # LED OFF
+U"I" : ledControl( 4, 255 ); # LED ON
+U"O" : ledControl( 0, 10 ); # LED Brightness -
+U"P" : ledControl( 1, 10 ); # LED Brightness +
+
+# Adjust Gamma settings
+U"L" : gamma(2); # Toggle Gamma
+U"K" : gamma(1); # Turn Gamma On
+U"J" : gamma(0); # Turn Gamma Off
+
+
