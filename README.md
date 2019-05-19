@@ -1,7 +1,7 @@
 # InputClubKTypeConfig
 
 
-##Helpful Links
+## Helpful Links
 * Current ["manual"](https://github.com/kiibohd/controller/blob/master/Documentation/Keyboards/K-Type.md) with information like entering flash mode, configuring layout, installing the flash utilities on MacOS or Windows, and adding animations
   * Wants:
     * Default keyboard layout graphic

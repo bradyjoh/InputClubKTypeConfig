@@ -46,6 +46,8 @@
       * /root/.local/share/virtualenvs/Keyboards-41-guJFC/lib/python3.6/site-packages/kll/layouts/stdFuncMap.kll
   * Running KLL checker https://github.com/kiibohd/controller/tree/master/Keyboards#self-testing-a-kll-layout
 * KLL Customizations
+  * Global Brightness level
+    * Set using the global variable `ISSI_Global_Brightnes` the file can be found in the Scan directory. I have a global vars KLL file though where I define it, which takes precendence over the Scan file. 
   * Gamma correction for proper oranges/reds: https://github.com/kiibohd/controller/commit/a16ee2c3a6ea9dce1c189f14ce8ebd0ea845a659 https://github.com/kiibohd/controller/issues/255
     * As of KLL 0.5.7.0
     * Looks like we can call gamma(0) to disable, gamma(1) to enable, or gamma(2) to toggle, and gamma is a shortcut to call Pixel_GammaControl_capability

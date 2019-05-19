@@ -2,11 +2,11 @@
 
 Name = "Global Values";
 Version = 1.0;
-Author = "John Brady 2018";
+Author = "John Brady 2019";
 KLL = 0.5;
 
 # Modified Date
-Date = 2018-12-22;
+Date = 2019-05-18;
 
 
 ### Gamma Correction ###
@@ -20,7 +20,7 @@ gamma_enabled = "1"; # 0 - Disabled, 1 - Enabled
 # 200 - 1.20 A
 # 150 - 1.10 A
 # 125 - 1.00 A
-# 100 - 0.80 A
+# 100 - 0.80 A # Default K-Type setting
 #  75 - 0.60 A
 #  50 - 0.42 A
 #  25 - 0.23 A
@@ -28,7 +28,7 @@ gamma_enabled = "1"; # 0 - Disabled, 1 - Enabled
 #   5 - 0.08 A
 #   1 - 0.06 A
 #   0 - 0.05 A
-ISSI_Global_Brightness = 255;
+ISSI_Global_Brightness = 128; 
 
 ### Animations ###
 
