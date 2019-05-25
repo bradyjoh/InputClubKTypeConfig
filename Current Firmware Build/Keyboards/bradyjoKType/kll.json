@@ -8,18 +8,20 @@
         "single_color_white": 5,
         "strobeFast": 6,
         "strobeSlow": 7,
-        "tropicana": 8
+        "test_animation": 8,
+        "tropicana": 9
     },
     "AnimationSettings": {
-        "A[layer2_animation](start)": 9,
-        "A[miami_wave](start)": 10,
-        "A[rainbow_wave](start)": 11,
-        "A[single_color](start)": 12,
-        "A[single_color_orange](start)": 13,
-        "A[single_color_white](start)": 14,
-        "A[strobeFast](start)": 15,
-        "A[strobeSlow](start)": 16,
-        "A[tropicana](start)": 17
+        "A[layer2_animation](replace:clear,start)": 10,
+        "A[miami_wave](replace:clear,start)": 11,
+        "A[rainbow_wave](replace:clear,start)": 12,
+        "A[single_color](replace:clear,start)": 13,
+        "A[single_color_orange](replace:clear,start)": 14,
+        "A[single_color_white](replace:clear,start)": 15,
+        "A[strobeFast](replace:clear,start)": 16,
+        "A[strobeSlow](replace:clear,start)": 17,
+        "A[test_animation](replace:clear,start)": 18,
+        "A[tropicana](replace:clear,start)": 19
     },
     "AnimationSettingsIndex": [
         {
@@ -42,7 +44,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -89,7 +91,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "all",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -143,7 +145,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "all",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -174,7 +176,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -198,7 +200,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -222,7 +224,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -253,7 +255,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -284,7 +286,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -292,6 +294,44 @@
             "name": "strobeSlow",
             "schedule": [],
             "setting": "A[strobeSlow]",
+            "state": null,
+            "type": "Animation"
+        },
+        {
+            "frameoptions": [],
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 255,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clear",
+                        "subarg": null
+                    }
+                }
+            ],
+            "name": "test_animation",
+            "schedule": [],
+            "setting": "A[test_animation]",
             "state": null,
             "type": "Animation"
         },
@@ -308,7 +348,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 }
@@ -339,7 +379,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -353,7 +393,7 @@
             ],
             "name": "layer2_animation",
             "schedule": [],
-            "setting": "A[layer2_animation](framedelay:50,pfunc:interp,replace:basic,start)",
+            "setting": "A[layer2_animation](framedelay:50,pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -393,7 +433,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "all",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -407,7 +447,7 @@
             ],
             "name": "miami_wave",
             "schedule": [],
-            "setting": "A[miami_wave](framedelay:1,framestretch,loop,pfunc:interp,replace:all,start)",
+            "setting": "A[miami_wave](framedelay:1,framestretch,loop,pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -447,7 +487,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "all",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -461,7 +501,7 @@
             ],
             "name": "rainbow_wave",
             "schedule": [],
-            "setting": "A[rainbow_wave](framedelay:3,framestretch,loop,pfunc:interp,replace:all,start)",
+            "setting": "A[rainbow_wave](framedelay:3,framestretch,loop,pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -478,7 +518,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -492,7 +532,7 @@
             ],
             "name": "single_color",
             "schedule": [],
-            "setting": "A[single_color](pfunc:interp,replace:basic,start)",
+            "setting": "A[single_color](pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -509,7 +549,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -523,7 +563,7 @@
             ],
             "name": "single_color_orange",
             "schedule": [],
-            "setting": "A[single_color_orange](pfunc:interp,replace:basic,start)",
+            "setting": "A[single_color_orange](pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -540,7 +580,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -554,7 +594,7 @@
             ],
             "name": "single_color_white",
             "schedule": [],
-            "setting": "A[single_color_white](pfunc:interp,replace:basic,start)",
+            "setting": "A[single_color_white](pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -578,7 +618,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -592,7 +632,7 @@
             ],
             "name": "strobeFast",
             "schedule": [],
-            "setting": "A[strobeFast](framedelay:3,pfunc:interp,replace:basic,start)",
+            "setting": "A[strobeFast](framedelay:3,pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -616,7 +656,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -630,7 +670,52 @@
             ],
             "name": "strobeSlow",
             "schedule": [],
-            "setting": "A[strobeSlow](framedelay:8,pfunc:interp,replace:basic,start)",
+            "setting": "A[strobeSlow](framedelay:8,pfunc:interp,replace:clear,start)",
+            "state": null,
+            "type": "Animation"
+        },
+        {
+            "frameoptions": [],
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 255,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clear",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "name": "test_animation",
+            "schedule": [],
+            "setting": "A[test_animation](framedelay:255,loop,pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         },
@@ -647,7 +732,7 @@
                 {
                     "name": "replace",
                     "value": {
-                        "arg": "basic",
+                        "arg": "clear",
                         "subarg": null
                     }
                 },
@@ -661,7 +746,7 @@
             ],
             "name": "tropicana",
             "schedule": [],
-            "setting": "A[tropicana](pfunc:interp,replace:basic,start)",
+            "setting": "A[tropicana](pfunc:interp,replace:clear,start)",
             "state": null,
             "type": "Animation"
         }
@@ -696,7 +781,7 @@
             ],
             "args_count": 6,
             "features": "CapabilityFeature_None",
-            "index": 22,
+            "index": 29,
             "name": "Pixel_Animation_capability"
         },
         "animationIndex": {
@@ -708,7 +793,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 21,
+            "index": 28,
             "name": "Pixel_AnimationIndex_capability"
         },
         "animation_control": {
@@ -720,8 +805,15 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 20,
+            "index": 27,
             "name": "Pixel_AnimationControl_capability"
+        },
+        "clearLayers": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_None",
+            "index": 7,
+            "name": "Layer_clearLayers_capability"
         },
         "consCtrlOut": {
             "args": [
@@ -732,8 +824,28 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 10,
+            "index": 17,
             "name": "Output_consCtrlSend_capability"
+        },
+        "fade_control": {
+            "args": [
+                {
+                    "name": "profile",
+                    "width": 1
+                },
+                {
+                    "name": "command",
+                    "width": 1
+                },
+                {
+                    "name": "arg",
+                    "width": 1
+                }
+            ],
+            "args_count": 3,
+            "features": "CapabilityFeature_None",
+            "index": 30,
+            "name": "Pixel_FadeControl_capability"
         },
         "fade_layer_highlight": {
             "args": [
@@ -744,7 +856,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 23,
+            "index": 31,
             "name": "Pixel_FadeLayerHighlight_capability"
         },
         "fade_set": {
@@ -764,14 +876,14 @@
             ],
             "args_count": 3,
             "features": "CapabilityFeature_None",
-            "index": 24,
+            "index": 32,
             "name": "Pixel_FadeSet_capability"
         },
         "flashMode": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_Safe",
-            "index": 11,
+            "index": 18,
             "name": "Output_flashMode_capability"
         },
         "gamma": {
@@ -783,21 +895,45 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_None",
-            "index": 25,
+            "index": 33,
             "name": "Pixel_GammaControl_capability"
+        },
+        "hidio_print": {
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_None",
+            "index": 4,
+            "name": "HIDIO_print_capability"
+        },
+        "ime_layout": {
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_None",
+            "index": 3,
+            "name": "HIDIO_layout_capability"
         },
         "kbdProtocolBoot": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 12,
+            "index": 19,
             "name": "Output_kbdProtocolBoot_capability"
         },
         "kbdProtocolNKRO": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 13,
+            "index": 20,
             "name": "Output_kbdProtocolNKRO_capability"
         },
         "layerLatch": {
@@ -809,7 +945,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 1,
+            "index": 8,
             "name": "Layer_layerLatch_capability"
         },
         "layerLock": {
@@ -821,7 +957,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 2,
+            "index": 9,
             "name": "Layer_layerLock_capability"
         },
         "layerRotate": {
@@ -833,7 +969,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 3,
+            "index": 10,
             "name": "Layer_layerRotate_capability"
         },
         "layerShift": {
@@ -845,7 +981,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 4,
+            "index": 11,
             "name": "Layer_layerShift_capability"
         },
         "layerState": {
@@ -861,7 +997,7 @@
             ],
             "args_count": 2,
             "features": "CapabilityFeature_Safe",
-            "index": 5,
+            "index": 12,
             "name": "Layer_layerState_capability"
         },
         "ledControl": {
@@ -877,8 +1013,24 @@
             ],
             "args_count": 2,
             "features": "CapabilityFeature_None",
-            "index": 0,
+            "index": 6,
             "name": "LED_control_capability"
+        },
+        "ledTest": {
+            "args": [
+                {
+                    "name": "test",
+                    "width": 1
+                },
+                {
+                    "name": "index",
+                    "width": 2
+                }
+            ],
+            "args_count": 2,
+            "features": "CapabilityFeature_None",
+            "index": 34,
+            "name": "Pixel_LEDTest_capability"
         },
         "mouseOut": {
             "args": [
@@ -897,7 +1049,7 @@
             ],
             "args_count": 3,
             "features": "CapabilityFeature_Safe",
-            "index": 19,
+            "index": 26,
             "name": "Output_usbMouse_capability"
         },
         "mouseWheelOut": {
@@ -913,49 +1065,61 @@
             ],
             "args_count": 2,
             "features": "CapabilityFeature_Safe",
-            "index": 18,
+            "index": 25,
             "name": "Output_usbMouseWheel_capability"
         },
         "none": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 6,
+            "index": 13,
             "name": "Macro_none_capability"
         },
         "noneOut": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_Safe",
-            "index": 14,
+            "index": 21,
             "name": "Output_noneSend_capability"
+        },
+        "open_url": {
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_None",
+            "index": 0,
+            "name": "HIDIO_Open_url_capability"
         },
         "pixel": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 26,
+            "index": 35,
             "name": "Pixel_Pixel_capability"
         },
         "portCross": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 27,
+            "index": 36,
             "name": "Port_cross_capability"
         },
         "portSwapInter": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 28,
+            "index": 37,
             "name": "Port_uart_capability"
         },
         "portSwapUSB": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 29,
+            "index": 38,
             "name": "Port_usb_capability"
         },
         "rotate": {
@@ -971,8 +1135,15 @@
             ],
             "args_count": 2,
             "features": "CapabilityFeature_None",
-            "index": 7,
+            "index": 14,
             "name": "Macro_rotate_capability"
+        },
+        "send_trigger_state": {
+            "args": [],
+            "args_count": 0,
+            "features": "CapabilityFeature_None",
+            "index": 5,
+            "name": "HIDIO_trigger_state_capability"
         },
         "sysCtrlOut": {
             "args": [
@@ -983,29 +1154,53 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 15,
+            "index": 22,
             "name": "Output_sysCtrlSend_capability"
         },
         "testThreadSafe": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_Safe",
-            "index": 8,
+            "index": 15,
             "name": "Macro_testThreadSafe_capability"
         },
         "testThreadUnsafe": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 9,
+            "index": 16,
             "name": "Macro_testThreadUnsafe_capability"
         },
         "toggleKbdProtocol": {
             "args": [],
             "args_count": 0,
             "features": "CapabilityFeature_None",
-            "index": 16,
+            "index": 23,
             "name": "Output_toggleKbdProtocol_capability"
+        },
+        "unicode_state": {
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_None",
+            "index": 2,
+            "name": "HIDIO_Unicode_state_capability"
+        },
+        "unicode_text": {
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "args_count": 1,
+            "features": "CapabilityFeature_None",
+            "index": 1,
+            "name": "HIDIO_Unicode_String_capability"
         },
         "usbKeyOut": {
             "args": [
@@ -1016,7 +1211,7 @@
             ],
             "args_count": 1,
             "features": "CapabilityFeature_Safe",
-            "index": 17,
+            "index": 24,
             "name": "Output_usbCodeSend_capability"
         }
     },
@@ -1074,6 +1269,10 @@
             "name": "ISSI_Chip_31FL3733_define",
             "value": "1"
         },
+        "ISSI_Chip_31FL3736": {
+            "name": "ISSI_Chip_31FL3736_define",
+            "value": "0"
+        },
         "ISSI_Chips": {
             "name": "ISSI_Chips_define",
             "value": "2"
@@ -1088,7 +1287,7 @@
         },
         "ISSI_Global_Brightness": {
             "name": "ISSI_Global_Brightness_define",
-            "value": "255"
+            "value": "100"
         },
         "ISSI_HardwareShutdownPin": {
             "name": "ISSI_HardwareShutdownPin_define",
@@ -1105,6 +1304,10 @@
         "ISSI_IIRSTPin": {
             "name": "ISSI_IIRSTPin_define",
             "value": "gpio(A,5)"
+        },
+        "KLL_LED_FadeActiveLayerInvert": {
+            "name": "KLL_LED_FadeActiveLayerInvert_define",
+            "value": "0"
         },
         "LED_MapCh1_Addr": {
             "name": "LED_MapCh1_Addr_define",
@@ -1182,6 +1385,10 @@
             "name": "ResultMacroBufferSize_define",
             "value": "50"
         },
+        "ScanCodeMatrixInvert": {
+            "name": "ScanCodeMatrixInvert_define",
+            "value": "0"
+        },
         "ScanCodeMatrixType": {
             "name": "ScanCodeMatrixType_define",
             "value": "GPIO_Config_Pulldown"
@@ -1222,6 +1429,14 @@
             "name": "UARTConnectCableCheckLength_define",
             "value": "2"
         },
+        "dacPriority": {
+            "name": "DAC_Priority_define",
+            "value": "151"
+        },
+        "defaultPriority": {
+            "name": "Default_Priority_define",
+            "value": "128"
+        },
         "enableDeviceRestartOnUSBTimeout": {
             "name": "enableDeviceRestartOnUSBTimeout_define",
             "value": "0"
@@ -1240,7 +1455,7 @@
         },
         "enableRawIO": {
             "name": "enableRawIO_define",
-            "value": "0"
+            "value": "1"
         },
         "enableUSBLowPowerNegotiation": {
             "name": "enableUSBLowPowerNegotiation_define",
@@ -1258,6 +1473,10 @@
             "name": "enableVirtualSerialPort_define",
             "value": "1"
         },
+        "entropyPriority": {
+            "name": "Entropy_Priority_define",
+            "value": "200"
+        },
         "flashModeEnabled": {
             "name": "flashModeEnabled_define",
             "value": "0"
@@ -1265,6 +1484,10 @@
         "gamma_enabled": {
             "name": "Pixel_gamma_default_define",
             "value": "1"
+        },
+        "i2cPriority": {
+            "name": "I2C_Priority_define",
+            "value": "150"
         },
         "indexWordSize": {
             "name": "IndexWordSize_define",
@@ -1281,6 +1504,10 @@
         "ledDebugPin": {
             "name": "DebugLED_ErrorPin_define",
             "value": "gpio(A,5)"
+        },
+        "periodicPriority": {
+            "name": "Periodic_Priority_define",
+            "value": "200"
         },
         "portCrossInterPin1": {
             "name": "Port_CrossInterPin1_define",
@@ -1314,9 +1541,17 @@
             "name": "SecureBootloader_define",
             "value": "0"
         },
+        "spiPriority": {
+            "name": "SPI_Priority_define",
+            "value": "130"
+        },
         "stateWordSize": {
             "name": "StateWordSize_define",
             "value": "16"
+        },
+        "uartPriority": {
+            "name": "UART_Priority_define",
+            "value": "111"
         },
         "usbIdle": {
             "name": "USBIdle_define",
@@ -1325,6 +1560,10 @@
         "usbIdleForce": {
             "name": "USBIdle_force_define",
             "value": "1"
+        },
+        "usbPriority": {
+            "name": "USB_Priority_define",
+            "value": "112"
         },
         "usbProtocol": {
             "name": "USBProtocol_define",
@@ -3189,7 +3428,7 @@
                 ]
             },
             ":0 S003": {
-                "kll": "S0x003 : layerLock(2), A[layer2_animation](start);",
+                "kll": "S0x003 : layerLock(2), A[layer2_animation](replace:clear,start);",
                 "result": [
                     [
                         {
@@ -3208,6 +3447,13 @@
                             "frameoptions": [],
                             "modifiers": [
                                 {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
+                                {
                                     "name": "start",
                                     "value": {
                                         "arg": null,
@@ -3217,7 +3463,7 @@
                             ],
                             "name": "layer2_animation",
                             "schedule": [],
-                            "setting": "A[layer2_animation](start)",
+                            "setting": "A[layer2_animation](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3722,12 +3968,19 @@
                 ]
             },
             ":0 S018": {
-                "kll": "S0x012 : A[rainbow_wave](start);",
+                "kll": "S0x012 : A[rainbow_wave](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3738,7 +3991,7 @@
                             ],
                             "name": "rainbow_wave",
                             "schedule": [],
-                            "setting": "A[rainbow_wave](start)",
+                            "setting": "A[rainbow_wave](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3755,12 +4008,19 @@
                 ]
             },
             ":0 S019": {
-                "kll": "S0x013 : A[miami_wave](start);",
+                "kll": "S0x013 : A[miami_wave](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3771,7 +4031,7 @@
                             ],
                             "name": "miami_wave",
                             "schedule": [],
-                            "setting": "A[miami_wave](start)",
+                            "setting": "A[miami_wave](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3788,12 +4048,19 @@
                 ]
             },
             ":0 S020": {
-                "kll": "S0x014 : A[single_color](start);",
+                "kll": "S0x014 : A[single_color](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3804,7 +4071,7 @@
                             ],
                             "name": "single_color",
                             "schedule": [],
-                            "setting": "A[single_color](start)",
+                            "setting": "A[single_color](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3821,12 +4088,19 @@
                 ]
             },
             ":0 S021": {
-                "kll": "S0x015 : A[single_color_orange](start);",
+                "kll": "S0x015 : A[single_color_orange](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3837,7 +4111,7 @@
                             ],
                             "name": "single_color_orange",
                             "schedule": [],
-                            "setting": "A[single_color_orange](start)",
+                            "setting": "A[single_color_orange](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3854,12 +4128,19 @@
                 ]
             },
             ":0 S022": {
-                "kll": "S0x016 : A[single_color_white](start);",
+                "kll": "S0x016 : A[single_color_white](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3870,7 +4151,7 @@
                             ],
                             "name": "single_color_white",
                             "schedule": [],
-                            "setting": "A[single_color_white](start)",
+                            "setting": "A[single_color_white](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3887,12 +4168,19 @@
                 ]
             },
             ":0 S023": {
-                "kll": "S0x017 : A[layer2_animation](start);",
+                "kll": "S0x017 : A[layer2_animation](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3903,7 +4191,7 @@
                             ],
                             "name": "layer2_animation",
                             "schedule": [],
-                            "setting": "A[layer2_animation](start)",
+                            "setting": "A[layer2_animation](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3920,12 +4208,19 @@
                 ]
             },
             ":0 S024": {
-                "kll": "S0x018 : A[tropicana](start);",
+                "kll": "S0x018 : A[tropicana](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3936,7 +4231,7 @@
                             ],
                             "name": "tropicana",
                             "schedule": [],
-                            "setting": "A[tropicana](start)",
+                            "setting": "A[tropicana](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3953,12 +4248,19 @@
                 ]
             },
             ":0 S025": {
-                "kll": "S0x019 : A[strobeSlow](start);",
+                "kll": "S0x019 : A[strobeSlow](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -3969,7 +4271,7 @@
                             ],
                             "name": "strobeSlow",
                             "schedule": [],
-                            "setting": "A[strobeSlow](start)",
+                            "setting": "A[strobeSlow](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -3986,12 +4288,19 @@
                 ]
             },
             ":0 S026": {
-                "kll": "S0x01a : A[strobeFast](start);",
+                "kll": "S0x01a : A[strobeFast](replace:clear,start);",
                 "result": [
                     [
                         {
                             "frameoptions": [],
                             "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
                                 {
                                     "name": "start",
                                     "value": {
@@ -4002,7 +4311,7 @@
                             ],
                             "name": "strobeFast",
                             "schedule": [],
-                            "setting": "A[strobeFast](start)",
+                            "setting": "A[strobeFast](replace:clear,start)",
                             "state": null,
                             "type": "Animation"
                         }
@@ -4014,6 +4323,46 @@
                             "schedule": [],
                             "type": "ScanCode",
                             "uid": 26
+                        }
+                    ]
+                ]
+            },
+            ":0 S027": {
+                "kll": "S0x01b : A[test_animation](replace:clear,start);",
+                "result": [
+                    [
+                        {
+                            "frameoptions": [],
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clear",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "name": "test_animation",
+                            "schedule": [],
+                            "setting": "A[test_animation](replace:clear,start)",
+                            "state": null,
+                            "type": "Animation"
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "ScanCode",
+                            "uid": 27
                         }
                     ]
                 ]
@@ -4079,7 +4428,7 @@
                 ]
             },
             ":0 S045": {
-                "kll": "S0x02d : ledControl(0,10);",
+                "kll": "S0x02d : ledControl(0,15);",
                 "result": [
                     [
                         {
@@ -4090,7 +4439,7 @@
                                 },
                                 {
                                     "type": "CapArgValue",
-                                    "value": 10
+                                    "value": 15
                                 }
                             ],
                             "name": "ledControl",
@@ -4109,7 +4458,7 @@
                 ]
             },
             ":0 S046": {
-                "kll": "S0x02e : ledControl(1,10);",
+                "kll": "S0x02e : ledControl(1,15);",
                 "result": [
                     [
                         {
@@ -4120,7 +4469,7 @@
                                 },
                                 {
                                     "type": "CapArgValue",
-                                    "value": 10
+                                    "value": 15
                                 }
                             ],
                             "name": "ledControl",

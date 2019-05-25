@@ -32,7 +32,7 @@ BaseMap="scancode_map"
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="k-type/release.1 stdFuncMap  bradyjoKType/globalValues bradyjoKType/defaultLayerPartial"
+DefaultMap="stdFuncMap  bradyjoKType/globalValues bradyjoKType/defaultLayerPartial"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
