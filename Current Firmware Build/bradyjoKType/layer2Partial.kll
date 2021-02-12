@@ -1,0 +1,42 @@
+Name = "Layer 2 Partial";
+Date = 2021-02-12;
+Version = 1.0;
+Author = "John Brady 2021";
+KLL = 0.5.7.16;
+Variant = "standard";
+Layout = "Standard";
+Generator = "NONE";
+Base = "Base";
+
+# Get out of the layer 2 lock mode without changing the animation
+U"F2" : layerLock(2);
+
+# Shortcuts to the different animations
+U"1" : A[rainbow_wave](start, replace:clearactive);
+U"2" : A[miami_wave](start, replace:clearactive);
+U"3" : A[single_color](start, replace:clearactive);
+U"4" : A[single_color_orange](start, replace:clearactive);
+U"5" : A[single_color_white](start, replace:clearactive);
+U"6" : A[layer2_animation](start, replace:clearactive)
+U"7" : A[tropicana](start, replace:clearactive);
+U"8" : A[strobeSlow](start, replace:clearactive);
+U"9" : A[strobeFast](start, replace:clearactive);
+U"0" : A[test_animation](start, replace:clearactive);
+
+# Adjust LEDs
+U"U" : ledControl( 3, 0 ); # LED OFF
+U"I" : ledControl( 4, 255 ); # LED ON
+U"O" : ledControl( 0, 15 ); # LED Brightness -
+U"P" : ledControl( 1, 15 ); # LED Brightness +
+
+# Adjust Gamma settings
+U"L" : gamma(2); # Toggle Gamma
+U"K" : gamma(1); # Turn Gamma On
+U"J" : gamma(0); # Turn Gamma Off
+
+# # Non-volatile control of animations
+# U"F10" : storage_control(2); # Defaults
+# U"F11" : storage_control(0); # Load
+# U"F12" : storage_control(1); # Save
+
+

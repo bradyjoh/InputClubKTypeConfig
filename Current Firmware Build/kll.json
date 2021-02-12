@@ -1,0 +1,6159 @@
+{
+    "AnimationIds": {
+        "layer2_animation": 0,
+        "miami_wave": 1,
+        "rainbow_wave": 2,
+        "single_color": 3,
+        "single_color_orange": 4,
+        "single_color_white": 5,
+        "strobeFast": 6,
+        "strobeSlow": 7,
+        "test_animation": 8,
+        "tropicana": 9
+    },
+    "AnimationSettings": {
+        "A[layer2_animation](replace:clearactive,start)": 10,
+        "A[miami_wave](replace:clearactive,start)": 11,
+        "A[rainbow_wave](replace:clearactive,start)": 12,
+        "A[single_color](replace:clearactive,start)": 13,
+        "A[single_color_orange](replace:clearactive,start)": 14,
+        "A[single_color_white](replace:clearactive,start)": 15,
+        "A[strobeFast](replace:clearactive,start)": 16,
+        "A[strobeSlow](replace:clearactive,start)": 17,
+        "A[test_animation](replace:clearactive,start)": 18
+    },
+    "AnimationSettingsIndex": [
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 50,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "layer2_animation",
+            "setting": "A[layer2_animation]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 1,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "framestretch",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [
+                "framestretch"
+            ],
+            "schedule": [],
+            "name": "miami_wave",
+            "setting": "A[miami_wave]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 3,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "framestretch",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [
+                "framestretch"
+            ],
+            "schedule": [],
+            "name": "rainbow_wave",
+            "setting": "A[rainbow_wave]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "single_color",
+            "setting": "A[single_color]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "single_color_orange",
+            "setting": "A[single_color_orange]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "single_color_white",
+            "setting": "A[single_color_white]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 3,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "strobeFast",
+            "setting": "A[strobeFast]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 8,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "strobeSlow",
+            "setting": "A[strobeSlow]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 255,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "test_animation",
+            "setting": "A[test_animation]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "tropicana",
+            "setting": "A[tropicana]",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 50,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "layer2_animation",
+            "setting": "A[layer2_animation](framedelay:50,pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 1,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "framestretch",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [
+                "framestretch"
+            ],
+            "schedule": [],
+            "name": "miami_wave",
+            "setting": "A[miami_wave](framedelay:1,framestretch,loop,pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 3,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "framestretch",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [
+                "framestretch"
+            ],
+            "schedule": [],
+            "name": "rainbow_wave",
+            "setting": "A[rainbow_wave](framedelay:3,framestretch,loop,pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "single_color",
+            "setting": "A[single_color](pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "single_color_orange",
+            "setting": "A[single_color_orange](pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "single_color_white",
+            "setting": "A[single_color_white](pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 3,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "strobeFast",
+            "setting": "A[strobeFast](framedelay:3,pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 8,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "strobeSlow",
+            "setting": "A[strobeSlow](framedelay:8,pfunc:interp,replace:clearactive,start)",
+            "state": null
+        },
+        {
+            "type": "Animation",
+            "modifiers": [
+                {
+                    "name": "framedelay",
+                    "value": {
+                        "arg": 255,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "loop",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "pfunc",
+                    "value": {
+                        "arg": "interp",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "replace",
+                    "value": {
+                        "arg": "clearactive",
+                        "subarg": null
+                    }
+                },
+                {
+                    "name": "start",
+                    "value": {
+                        "arg": null,
+                        "subarg": null
+                    }
+                }
+            ],
+            "frameoptions": [],
+            "schedule": [],
+            "name": "test_animation",
+            "setting": "A[test_animation](framedelay:255,loop,pfunc:interp,replace:clearactive,start)",
+            "state": null
+        }
+    ],
+    "PixelIds": {
+        "1": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 1,
+            "Row": 7,
+            "Col": 36
+        },
+        "2": {
+            "x": 38.1,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 2,
+            "Row": 1,
+            "Col": 1
+        },
+        "3": {
+            "x": 57.15,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 3,
+            "Row": 1,
+            "Col": 5
+        },
+        "4": {
+            "x": 76.2,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 4,
+            "Row": 1,
+            "Col": 7
+        },
+        "5": {
+            "x": 95.25,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 5,
+            "Row": 1,
+            "Col": 9
+        },
+        "6": {
+            "x": 123.83,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 6,
+            "Row": 1,
+            "Col": 11
+        },
+        "7": {
+            "x": 142.88,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 7,
+            "Row": 1,
+            "Col": 14
+        },
+        "8": {
+            "x": 161.93,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 8,
+            "Row": 1,
+            "Col": 16
+        },
+        "9": {
+            "x": 180.98,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 9,
+            "Row": 1,
+            "Col": 18
+        },
+        "10": {
+            "x": 209.55,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 10,
+            "Row": 1,
+            "Col": 20
+        },
+        "11": {
+            "x": 228.6,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 11,
+            "Row": 1,
+            "Col": 23
+        },
+        "12": {
+            "x": 247.65,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 12,
+            "Row": 1,
+            "Col": 25
+        },
+        "13": {
+            "x": 266.7,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 13,
+            "Row": 1,
+            "Col": 27
+        },
+        "14": {
+            "x": 295.275,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 14,
+            "Row": 1,
+            "Col": 29
+        },
+        "15": {
+            "x": 314.33,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 15,
+            "Row": 1,
+            "Col": 32
+        },
+        "16": {
+            "x": 333.375,
+            "y": 0.0,
+            "z": 0.0,
+            "ScanCode": 16,
+            "Row": 1,
+            "Col": 34
+        },
+        "17": {
+            "x": 0.0,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 17,
+            "Row": 1,
+            "Col": 36
+        },
+        "18": {
+            "x": 19.05,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 18,
+            "Row": 2,
+            "Col": 1
+        },
+        "19": {
+            "x": 38.1,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 19,
+            "Row": 2,
+            "Col": 3
+        },
+        "20": {
+            "x": 57.15,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 20,
+            "Row": 2,
+            "Col": 5
+        },
+        "21": {
+            "x": 76.2,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 21,
+            "Row": 2,
+            "Col": 7
+        },
+        "22": {
+            "x": 95.25,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 22,
+            "Row": 2,
+            "Col": 9
+        },
+        "23": {
+            "x": 114.3,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 23,
+            "Row": 2,
+            "Col": 11
+        },
+        "24": {
+            "x": 133.35,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 24,
+            "Row": 2,
+            "Col": 13
+        },
+        "25": {
+            "x": 152.4,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 25,
+            "Row": 2,
+            "Col": 15
+        },
+        "26": {
+            "x": 171.45,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 26,
+            "Row": 2,
+            "Col": 17
+        },
+        "27": {
+            "x": 190.5,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 27,
+            "Row": 2,
+            "Col": 19
+        },
+        "28": {
+            "x": 209.55,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 28,
+            "Row": 2,
+            "Col": 21
+        },
+        "29": {
+            "x": 228.6,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 29,
+            "Row": 2,
+            "Col": 23
+        },
+        "30": {
+            "x": 257.17,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 31,
+            "Row": 2,
+            "Col": 25
+        },
+        "31": {
+            "x": 295.275,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 33,
+            "Row": 2,
+            "Col": 28
+        },
+        "32": {
+            "x": 314.33,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 34,
+            "Row": 2,
+            "Col": 32
+        },
+        "33": {
+            "x": 333.375,
+            "y": -28.575,
+            "z": 0.0,
+            "ScanCode": 35,
+            "Row": 2,
+            "Col": 34
+        },
+        "34": {
+            "x": 4.76,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 36,
+            "Row": 2,
+            "Col": 36
+        },
+        "35": {
+            "x": 28.58,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 37,
+            "Row": 3,
+            "Col": 2
+        },
+        "36": {
+            "x": 47.63,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 38,
+            "Row": 3,
+            "Col": 4
+        },
+        "37": {
+            "x": 66.68,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 39,
+            "Row": 3,
+            "Col": 6
+        },
+        "38": {
+            "x": 85.73,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 40,
+            "Row": 3,
+            "Col": 8
+        },
+        "39": {
+            "x": 104.77,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 41,
+            "Row": 3,
+            "Col": 10
+        },
+        "40": {
+            "x": 123.83,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 42,
+            "Row": 3,
+            "Col": 12
+        },
+        "41": {
+            "x": 142.88,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 43,
+            "Row": 3,
+            "Col": 14
+        },
+        "42": {
+            "x": 161.93,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 44,
+            "Row": 3,
+            "Col": 16
+        },
+        "43": {
+            "x": 180.98,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 45,
+            "Row": 3,
+            "Col": 18
+        },
+        "44": {
+            "x": 200.02,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 46,
+            "Row": 3,
+            "Col": 20
+        },
+        "45": {
+            "x": 219.07,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 47,
+            "Row": 3,
+            "Col": 22
+        },
+        "46": {
+            "x": 238.13,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 48,
+            "Row": 3,
+            "Col": 24
+        },
+        "47": {
+            "x": 261.94,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 49,
+            "Row": 3,
+            "Col": 26
+        },
+        "48": {
+            "x": 295.275,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 51,
+            "Row": 3,
+            "Col": 28
+        },
+        "49": {
+            "x": 314.33,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 52,
+            "Row": 3,
+            "Col": 32
+        },
+        "50": {
+            "x": 333.375,
+            "y": -47.625,
+            "z": 0.0,
+            "ScanCode": 53,
+            "Row": 3,
+            "Col": 34
+        },
+        "51": {
+            "x": 7.14,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 54,
+            "Row": 3,
+            "Col": 36
+        },
+        "52": {
+            "x": 33.33,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 55,
+            "Row": 4,
+            "Col": 2
+        },
+        "53": {
+            "x": 52.39,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 56,
+            "Row": 4,
+            "Col": 5
+        },
+        "54": {
+            "x": 71.44,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 57,
+            "Row": 4,
+            "Col": 7
+        },
+        "55": {
+            "x": 90.49,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 58,
+            "Row": 4,
+            "Col": 9
+        },
+        "56": {
+            "x": 109.54,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 59,
+            "Row": 4,
+            "Col": 11
+        },
+        "57": {
+            "x": 128.6,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 60,
+            "Row": 4,
+            "Col": 13
+        },
+        "58": {
+            "x": 147.64,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 61,
+            "Row": 4,
+            "Col": 15
+        },
+        "59": {
+            "x": 166.69,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 62,
+            "Row": 4,
+            "Col": 17
+        },
+        "60": {
+            "x": 185.74,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 63,
+            "Row": 4,
+            "Col": 18
+        },
+        "61": {
+            "x": 204.79,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 64,
+            "Row": 4,
+            "Col": 20
+        },
+        "62": {
+            "x": 223.84,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 65,
+            "Row": 4,
+            "Col": 22
+        },
+        "63": {
+            "x": 254.06,
+            "y": -66.675,
+            "z": 0.0,
+            "ScanCode": 67,
+            "Row": 4,
+            "Col": 24
+        },
+        "64": {
+            "x": 11.9,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 69,
+            "Row": 4,
+            "Col": 28
+        },
+        "65": {
+            "x": 42.85,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 71,
+            "Row": 5,
+            "Col": 2
+        },
+        "66": {
+            "x": 61.91,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 72,
+            "Row": 5,
+            "Col": 6
+        },
+        "67": {
+            "x": 80.96,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 73,
+            "Row": 5,
+            "Col": 8
+        },
+        "68": {
+            "x": 100.0,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 74,
+            "Row": 5,
+            "Col": 10
+        },
+        "69": {
+            "x": 119.04,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 75,
+            "Row": 5,
+            "Col": 12
+        },
+        "70": {
+            "x": 138.1,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 76,
+            "Row": 5,
+            "Col": 14
+        },
+        "71": {
+            "x": 157.16,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 77,
+            "Row": 5,
+            "Col": 16
+        },
+        "72": {
+            "x": 176.21,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 78,
+            "Row": 5,
+            "Col": 18
+        },
+        "73": {
+            "x": 195.26,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 79,
+            "Row": 5,
+            "Col": 19
+        },
+        "74": {
+            "x": 214.31,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 80,
+            "Row": 5,
+            "Col": 21
+        },
+        "75": {
+            "x": 250.03,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 82,
+            "Row": 5,
+            "Col": 23
+        },
+        "76": {
+            "x": 314.33,
+            "y": -85.725,
+            "z": 0.0,
+            "ScanCode": 84,
+            "Row": 5,
+            "Col": 27
+        },
+        "77": {
+            "x": 0.0,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 85,
+            "Row": 5,
+            "Col": 34
+        },
+        "78": {
+            "x": 26.19,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 86,
+            "Row": 6,
+            "Col": 1
+        },
+        "79": {
+            "x": 50.0,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 87,
+            "Row": 6,
+            "Col": 4
+        },
+        "80": {
+            "x": 121.44,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 88,
+            "Row": 6,
+            "Col": 6
+        },
+        "81": {
+            "x": 192.88,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 89,
+            "Row": 6,
+            "Col": 14
+        },
+        "82": {
+            "x": 216.69,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 90,
+            "Row": 6,
+            "Col": 21
+        },
+        "83": {
+            "x": 240.5,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 91,
+            "Row": 6,
+            "Col": 24
+        },
+        "84": {
+            "x": 264.32,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 92,
+            "Row": 6,
+            "Col": 26
+        },
+        "85": {
+            "x": 295.275,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 93,
+            "Row": 6,
+            "Col": 29
+        },
+        "86": {
+            "x": 314.33,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 94,
+            "Row": 6,
+            "Col": 32
+        },
+        "87": {
+            "x": 333.375,
+            "y": -104.775,
+            "z": 0.0,
+            "ScanCode": 95,
+            "Row": 6,
+            "Col": 34
+        },
+        "88": {
+            "x": 341.19,
+            "y": -112.52,
+            "z": 0.0,
+            "Row": 6,
+            "Col": 36
+        },
+        "89": {
+            "x": 312.04,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 37
+        },
+        "90": {
+            "x": 282.96,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 34
+        },
+        "91": {
+            "x": 253.87,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 31
+        },
+        "92": {
+            "x": 224.79,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 28
+        },
+        "93": {
+            "x": 195.71,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 25
+        },
+        "94": {
+            "x": 166.62,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 22
+        },
+        "95": {
+            "x": 137.54,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 18
+        },
+        "96": {
+            "x": 108.46,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 15
+        },
+        "97": {
+            "x": 79.38,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 12
+        },
+        "98": {
+            "x": 50.29,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 9
+        },
+        "99": {
+            "x": 21.21,
+            "y": -115.19,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 6
+        },
+        "100": {
+            "x": -7.81,
+            "y": -112.52,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 3
+        },
+        "101": {
+            "x": -10.41,
+            "y": -82.42,
+            "z": 0.0,
+            "Row": 7,
+            "Col": 0
+        },
+        "102": {
+            "x": -10.41,
+            "y": -52.32,
+            "z": 0.0,
+            "Row": 5,
+            "Col": 0
+        },
+        "103": {
+            "x": -10.41,
+            "y": -22.23,
+            "z": 0.0,
+            "Row": 3,
+            "Col": 0
+        },
+        "104": {
+            "x": -7.81,
+            "y": 7.87,
+            "z": 0.0,
+            "Row": 2,
+            "Col": 0
+        },
+        "105": {
+            "x": 21.2,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 0
+        },
+        "106": {
+            "x": 50.29,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 3
+        },
+        "107": {
+            "x": 79.38,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 6
+        },
+        "108": {
+            "x": 108.45,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 9
+        },
+        "109": {
+            "x": 137.54,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 12
+        },
+        "110": {
+            "x": 166.62,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 15
+        },
+        "111": {
+            "x": 195.7,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 18
+        },
+        "112": {
+            "x": 224.79,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 22
+        },
+        "113": {
+            "x": 253.87,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 25
+        },
+        "114": {
+            "x": 282.95,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 28
+        },
+        "115": {
+            "x": 312.03,
+            "y": 10.54,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 31
+        },
+        "116": {
+            "x": 341.19,
+            "y": 7.87,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 34
+        },
+        "117": {
+            "x": 343.79,
+            "y": -22.23,
+            "z": 0.0,
+            "Row": 0,
+            "Col": 37
+        },
+        "118": {
+            "x": 343.79,
+            "y": -52.32,
+            "z": 0.0,
+            "Row": 2,
+            "Col": 37
+        },
+        "119": {
+            "x": 343.79,
+            "y": -82.42,
+            "z": 0.0,
+            "Row": 3,
+            "Col": 37
+        },
+        "120": {
+            "Row": 5,
+            "Col": 37
+        }
+    },
+    "ScanCodes": {
+        "1": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 1,
+            "Row": 7,
+            "Col": 36
+        },
+        "2": {
+            "x": 38.1,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 2,
+            "Row": 1,
+            "Col": 1
+        },
+        "3": {
+            "x": 57.15,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 3,
+            "Row": 1,
+            "Col": 5
+        },
+        "4": {
+            "x": 76.2,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 4,
+            "Row": 1,
+            "Col": 7
+        },
+        "5": {
+            "x": 95.25,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 5,
+            "Row": 1,
+            "Col": 9
+        },
+        "6": {
+            "x": 123.83,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 6,
+            "Row": 1,
+            "Col": 11
+        },
+        "7": {
+            "x": 142.88,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 7,
+            "Row": 1,
+            "Col": 14
+        },
+        "8": {
+            "x": 161.93,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 8,
+            "Row": 1,
+            "Col": 16
+        },
+        "9": {
+            "x": 180.98,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 9,
+            "Row": 1,
+            "Col": 18
+        },
+        "10": {
+            "x": 209.55,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 10,
+            "Row": 1,
+            "Col": 20
+        },
+        "11": {
+            "x": 228.6,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 11,
+            "Row": 1,
+            "Col": 23
+        },
+        "12": {
+            "x": 247.65,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 12,
+            "Row": 1,
+            "Col": 25
+        },
+        "13": {
+            "x": 266.7,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 13,
+            "Row": 1,
+            "Col": 27
+        },
+        "14": {
+            "x": 295.275,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 14,
+            "Row": 1,
+            "Col": 29
+        },
+        "15": {
+            "x": 314.33,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 15,
+            "Row": 1,
+            "Col": 32
+        },
+        "16": {
+            "x": 333.375,
+            "y": 0.0,
+            "z": 0.0,
+            "PixelId": 16,
+            "Row": 1,
+            "Col": 34
+        },
+        "17": {
+            "x": 0.0,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 17,
+            "Row": 1,
+            "Col": 36
+        },
+        "18": {
+            "x": 19.05,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 18,
+            "Row": 2,
+            "Col": 1
+        },
+        "19": {
+            "x": 38.1,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 19,
+            "Row": 2,
+            "Col": 3
+        },
+        "20": {
+            "x": 57.15,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 20,
+            "Row": 2,
+            "Col": 5
+        },
+        "21": {
+            "x": 76.2,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 21,
+            "Row": 2,
+            "Col": 7
+        },
+        "22": {
+            "x": 95.25,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 22,
+            "Row": 2,
+            "Col": 9
+        },
+        "23": {
+            "x": 114.3,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 23,
+            "Row": 2,
+            "Col": 11
+        },
+        "24": {
+            "x": 133.35,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 24,
+            "Row": 2,
+            "Col": 13
+        },
+        "25": {
+            "x": 152.4,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 25,
+            "Row": 2,
+            "Col": 15
+        },
+        "26": {
+            "x": 171.45,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 26,
+            "Row": 2,
+            "Col": 17
+        },
+        "27": {
+            "x": 190.5,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 27,
+            "Row": 2,
+            "Col": 19
+        },
+        "28": {
+            "x": 209.55,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 28,
+            "Row": 2,
+            "Col": 21
+        },
+        "29": {
+            "x": 228.6,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 29,
+            "Row": 2,
+            "Col": 23
+        },
+        "31": {
+            "x": 257.17,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 30,
+            "Row": 2,
+            "Col": 25
+        },
+        "33": {
+            "x": 295.275,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 31,
+            "Row": 2,
+            "Col": 28
+        },
+        "34": {
+            "x": 314.33,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 32,
+            "Row": 2,
+            "Col": 32
+        },
+        "35": {
+            "x": 333.375,
+            "y": -28.575,
+            "z": 0.0,
+            "PixelId": 33,
+            "Row": 2,
+            "Col": 34
+        },
+        "36": {
+            "x": 4.76,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 34,
+            "Row": 2,
+            "Col": 36
+        },
+        "37": {
+            "x": 28.58,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 35,
+            "Row": 3,
+            "Col": 2
+        },
+        "38": {
+            "x": 47.63,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 36,
+            "Row": 3,
+            "Col": 4
+        },
+        "39": {
+            "x": 66.68,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 37,
+            "Row": 3,
+            "Col": 6
+        },
+        "40": {
+            "x": 85.73,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 38,
+            "Row": 3,
+            "Col": 8
+        },
+        "41": {
+            "x": 104.77,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 39,
+            "Row": 3,
+            "Col": 10
+        },
+        "42": {
+            "x": 123.83,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 40,
+            "Row": 3,
+            "Col": 12
+        },
+        "43": {
+            "x": 142.88,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 41,
+            "Row": 3,
+            "Col": 14
+        },
+        "44": {
+            "x": 161.93,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 42,
+            "Row": 3,
+            "Col": 16
+        },
+        "45": {
+            "x": 180.98,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 43,
+            "Row": 3,
+            "Col": 18
+        },
+        "46": {
+            "x": 200.02,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 44,
+            "Row": 3,
+            "Col": 20
+        },
+        "47": {
+            "x": 219.07,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 45,
+            "Row": 3,
+            "Col": 22
+        },
+        "48": {
+            "x": 238.13,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 46,
+            "Row": 3,
+            "Col": 24
+        },
+        "49": {
+            "x": 261.94,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 47,
+            "Row": 3,
+            "Col": 26
+        },
+        "51": {
+            "x": 295.275,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 48,
+            "Row": 3,
+            "Col": 28
+        },
+        "52": {
+            "x": 314.33,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 49,
+            "Row": 3,
+            "Col": 32
+        },
+        "53": {
+            "x": 333.375,
+            "y": -47.625,
+            "z": 0.0,
+            "PixelId": 50,
+            "Row": 3,
+            "Col": 34
+        },
+        "54": {
+            "x": 7.14,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 51,
+            "Row": 3,
+            "Col": 36
+        },
+        "55": {
+            "x": 33.33,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 52,
+            "Row": 4,
+            "Col": 2
+        },
+        "56": {
+            "x": 52.39,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 53,
+            "Row": 4,
+            "Col": 5
+        },
+        "57": {
+            "x": 71.44,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 54,
+            "Row": 4,
+            "Col": 7
+        },
+        "58": {
+            "x": 90.49,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 55,
+            "Row": 4,
+            "Col": 9
+        },
+        "59": {
+            "x": 109.54,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 56,
+            "Row": 4,
+            "Col": 11
+        },
+        "60": {
+            "x": 128.6,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 57,
+            "Row": 4,
+            "Col": 13
+        },
+        "61": {
+            "x": 147.64,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 58,
+            "Row": 4,
+            "Col": 15
+        },
+        "62": {
+            "x": 166.69,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 59,
+            "Row": 4,
+            "Col": 17
+        },
+        "63": {
+            "x": 185.74,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 60,
+            "Row": 4,
+            "Col": 18
+        },
+        "64": {
+            "x": 204.79,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 61,
+            "Row": 4,
+            "Col": 20
+        },
+        "65": {
+            "x": 223.84,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 62,
+            "Row": 4,
+            "Col": 22
+        },
+        "67": {
+            "x": 254.06,
+            "y": -66.675,
+            "z": 0.0,
+            "PixelId": 63,
+            "Row": 4,
+            "Col": 24
+        },
+        "69": {
+            "x": 11.9,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 64,
+            "Row": 4,
+            "Col": 28
+        },
+        "71": {
+            "x": 42.85,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 65,
+            "Row": 5,
+            "Col": 2
+        },
+        "72": {
+            "x": 61.91,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 66,
+            "Row": 5,
+            "Col": 6
+        },
+        "73": {
+            "x": 80.96,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 67,
+            "Row": 5,
+            "Col": 8
+        },
+        "74": {
+            "x": 100.0,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 68,
+            "Row": 5,
+            "Col": 10
+        },
+        "75": {
+            "x": 119.04,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 69,
+            "Row": 5,
+            "Col": 12
+        },
+        "76": {
+            "x": 138.1,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 70,
+            "Row": 5,
+            "Col": 14
+        },
+        "77": {
+            "x": 157.16,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 71,
+            "Row": 5,
+            "Col": 16
+        },
+        "78": {
+            "x": 176.21,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 72,
+            "Row": 5,
+            "Col": 18
+        },
+        "79": {
+            "x": 195.26,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 73,
+            "Row": 5,
+            "Col": 19
+        },
+        "80": {
+            "x": 214.31,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 74,
+            "Row": 5,
+            "Col": 21
+        },
+        "82": {
+            "x": 250.03,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 75,
+            "Row": 5,
+            "Col": 23
+        },
+        "84": {
+            "x": 314.33,
+            "y": -85.725,
+            "z": 0.0,
+            "PixelId": 76,
+            "Row": 5,
+            "Col": 27
+        },
+        "85": {
+            "x": 0.0,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 77,
+            "Row": 5,
+            "Col": 34
+        },
+        "86": {
+            "x": 26.19,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 78,
+            "Row": 6,
+            "Col": 1
+        },
+        "87": {
+            "x": 50.0,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 79,
+            "Row": 6,
+            "Col": 4
+        },
+        "88": {
+            "x": 121.44,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 80,
+            "Row": 6,
+            "Col": 6
+        },
+        "89": {
+            "x": 192.88,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 81,
+            "Row": 6,
+            "Col": 14
+        },
+        "90": {
+            "x": 216.69,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 82,
+            "Row": 6,
+            "Col": 21
+        },
+        "91": {
+            "x": 240.5,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 83,
+            "Row": 6,
+            "Col": 24
+        },
+        "92": {
+            "x": 264.32,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 84,
+            "Row": 6,
+            "Col": 26
+        },
+        "93": {
+            "x": 295.275,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 85,
+            "Row": 6,
+            "Col": 29
+        },
+        "94": {
+            "x": 314.33,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 86,
+            "Row": 6,
+            "Col": 32
+        },
+        "95": {
+            "x": 333.375,
+            "y": -104.775,
+            "z": 0.0,
+            "PixelId": 87,
+            "Row": 6,
+            "Col": 34
+        }
+    },
+    "Capabilities": {
+        "open_url": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "name": "HIDIO_Open_url_capability",
+            "index": 0,
+            "features": "CapabilityFeature_None"
+        },
+        "unicode_text": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "name": "HIDIO_Unicode_String_capability",
+            "index": 1,
+            "features": "CapabilityFeature_None"
+        },
+        "unicode_state": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "name": "HIDIO_Unicode_state_capability",
+            "index": 2,
+            "features": "CapabilityFeature_None"
+        },
+        "ime_layout": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "name": "HIDIO_layout_capability",
+            "index": 3,
+            "features": "CapabilityFeature_None"
+        },
+        "hidio_print": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "c",
+                    "width": 1
+                }
+            ],
+            "name": "HIDIO_print_capability",
+            "index": 4,
+            "features": "CapabilityFeature_None"
+        },
+        "send_trigger_state": {
+            "args_count": 0,
+            "args": [],
+            "name": "HIDIO_trigger_state_capability",
+            "index": 5,
+            "features": "CapabilityFeature_None"
+        },
+        "ledControl": {
+            "args_count": 2,
+            "args": [
+                {
+                    "name": "mode",
+                    "width": 1
+                },
+                {
+                    "name": "amount",
+                    "width": 1
+                }
+            ],
+            "name": "LED_control_capability",
+            "index": 6,
+            "features": "CapabilityFeature_None"
+        },
+        "clearLayers": {
+            "args_count": 0,
+            "args": [],
+            "name": "Layer_clearLayers_capability",
+            "index": 7,
+            "features": "CapabilityFeature_None"
+        },
+        "layerLatch": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "name": "Layer_layerLatch_capability",
+            "index": 8,
+            "features": "CapabilityFeature_Safe"
+        },
+        "layerLock": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "name": "Layer_layerLock_capability",
+            "index": 9,
+            "features": "CapabilityFeature_Safe"
+        },
+        "layerRotate": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "previous",
+                    "width": 1
+                }
+            ],
+            "name": "Layer_layerRotate_capability",
+            "index": 10,
+            "features": "CapabilityFeature_Safe"
+        },
+        "layerShift": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "name": "Layer_layerShift_capability",
+            "index": 11,
+            "features": "CapabilityFeature_Safe"
+        },
+        "layerState": {
+            "args_count": 2,
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                },
+                {
+                    "name": "state",
+                    "width": 1
+                }
+            ],
+            "name": "Layer_layerState_capability",
+            "index": 12,
+            "features": "CapabilityFeature_Safe"
+        },
+        "none": {
+            "args_count": 0,
+            "args": [],
+            "name": "Macro_none_capability",
+            "index": 13,
+            "features": "CapabilityFeature_None"
+        },
+        "rotate": {
+            "args_count": 2,
+            "args": [
+                {
+                    "name": "index",
+                    "width": 1
+                },
+                {
+                    "name": "increment",
+                    "width": 1
+                }
+            ],
+            "name": "Macro_rotate_capability",
+            "index": 14,
+            "features": "CapabilityFeature_None"
+        },
+        "testThreadSafe": {
+            "args_count": 0,
+            "args": [],
+            "name": "Macro_testThreadSafe_capability",
+            "index": 15,
+            "features": "CapabilityFeature_Safe"
+        },
+        "testThreadUnsafe": {
+            "args_count": 0,
+            "args": [],
+            "name": "Macro_testThreadUnsafe_capability",
+            "index": 16,
+            "features": "CapabilityFeature_None"
+        },
+        "consCtrlOut": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "consCode",
+                    "width": 2
+                }
+            ],
+            "name": "Output_consCtrlSend_capability",
+            "index": 17,
+            "features": "CapabilityFeature_Safe"
+        },
+        "flashMode": {
+            "args_count": 0,
+            "args": [],
+            "name": "Output_flashMode_capability",
+            "index": 18,
+            "features": "CapabilityFeature_Safe"
+        },
+        "kbdProtocolBoot": {
+            "args_count": 0,
+            "args": [],
+            "name": "Output_kbdProtocolBoot_capability",
+            "index": 19,
+            "features": "CapabilityFeature_None"
+        },
+        "kbdProtocolNKRO": {
+            "args_count": 0,
+            "args": [],
+            "name": "Output_kbdProtocolNKRO_capability",
+            "index": 20,
+            "features": "CapabilityFeature_None"
+        },
+        "noneOut": {
+            "args_count": 0,
+            "args": [],
+            "name": "Output_noneSend_capability",
+            "index": 21,
+            "features": "CapabilityFeature_Safe"
+        },
+        "sysCtrlOut": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "sysCode",
+                    "width": 1
+                }
+            ],
+            "name": "Output_sysCtrlSend_capability",
+            "index": 22,
+            "features": "CapabilityFeature_Safe"
+        },
+        "toggleKbdProtocol": {
+            "args_count": 0,
+            "args": [],
+            "name": "Output_toggleKbdProtocol_capability",
+            "index": 23,
+            "features": "CapabilityFeature_None"
+        },
+        "releaseUSBKey": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "usbCode",
+                    "width": 1
+                }
+            ],
+            "name": "Output_usbCodeRelease_capability",
+            "index": 24,
+            "features": "CapabilityFeature_None"
+        },
+        "usbKeyOut": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "usbCode",
+                    "width": 1
+                }
+            ],
+            "name": "Output_usbCodeSend_capability",
+            "index": 25,
+            "features": "CapabilityFeature_Safe"
+        },
+        "mouseWheelOut": {
+            "args_count": 2,
+            "args": [
+                {
+                    "name": "vertWheel",
+                    "width": 1
+                },
+                {
+                    "name": "horiWheel",
+                    "width": 1
+                }
+            ],
+            "name": "Output_usbMouseWheel_capability",
+            "index": 26,
+            "features": "CapabilityFeature_Safe"
+        },
+        "mouseOut": {
+            "args_count": 3,
+            "args": [
+                {
+                    "name": "mouseCode",
+                    "width": 2
+                },
+                {
+                    "name": "relative_x",
+                    "width": 2
+                },
+                {
+                    "name": "relative_y",
+                    "width": 2
+                }
+            ],
+            "name": "Output_usbMouse_capability",
+            "index": 27,
+            "features": "CapabilityFeature_Safe"
+        },
+        "animation_control": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "func",
+                    "width": 1
+                }
+            ],
+            "name": "Pixel_AnimationControl_capability",
+            "index": 28,
+            "features": "CapabilityFeature_None"
+        },
+        "animationIndex": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "settingindex",
+                    "width": 2
+                }
+            ],
+            "name": "Pixel_AnimationIndex_capability",
+            "index": 29,
+            "features": "CapabilityFeature_None"
+        },
+        "animation": {
+            "args_count": 6,
+            "args": [
+                {
+                    "name": "index",
+                    "width": 2
+                },
+                {
+                    "name": "loops",
+                    "width": 1
+                },
+                {
+                    "name": "pfunc",
+                    "width": 1
+                },
+                {
+                    "name": "divmask",
+                    "width": 1
+                },
+                {
+                    "name": "divshift",
+                    "width": 1
+                },
+                {
+                    "name": "replace",
+                    "width": 1
+                }
+            ],
+            "name": "Pixel_Animation_capability",
+            "index": 30,
+            "features": "CapabilityFeature_None"
+        },
+        "fade_control": {
+            "args_count": 3,
+            "args": [
+                {
+                    "name": "profile",
+                    "width": 1
+                },
+                {
+                    "name": "command",
+                    "width": 1
+                },
+                {
+                    "name": "arg",
+                    "width": 1
+                }
+            ],
+            "name": "Pixel_FadeControl_capability",
+            "index": 31,
+            "features": "CapabilityFeature_None"
+        },
+        "fade_layer_highlight": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "layer",
+                    "width": 2
+                }
+            ],
+            "name": "Pixel_FadeLayerHighlight_capability",
+            "index": 32,
+            "features": "CapabilityFeature_None"
+        },
+        "fade_set": {
+            "args_count": 3,
+            "args": [
+                {
+                    "name": "profile",
+                    "width": 1
+                },
+                {
+                    "name": "config",
+                    "width": 1
+                },
+                {
+                    "name": "period",
+                    "width": 1
+                }
+            ],
+            "name": "Pixel_FadeSet_capability",
+            "index": 33,
+            "features": "CapabilityFeature_None"
+        },
+        "gamma": {
+            "args_count": 1,
+            "args": [
+                {
+                    "name": "func",
+                    "width": 1
+                }
+            ],
+            "name": "Pixel_GammaControl_capability",
+            "index": 34,
+            "features": "CapabilityFeature_None"
+        },
+        "ledTest": {
+            "args_count": 2,
+            "args": [
+                {
+                    "name": "test",
+                    "width": 1
+                },
+                {
+                    "name": "index",
+                    "width": 2
+                }
+            ],
+            "name": "Pixel_LEDTest_capability",
+            "index": 35,
+            "features": "CapabilityFeature_None"
+        },
+        "pixel": {
+            "args_count": 0,
+            "args": [],
+            "name": "Pixel_Pixel_capability",
+            "index": 36,
+            "features": "CapabilityFeature_None"
+        },
+        "portCross": {
+            "args_count": 0,
+            "args": [],
+            "name": "Port_cross_capability",
+            "index": 37,
+            "features": "CapabilityFeature_None"
+        },
+        "portSwapInter": {
+            "args_count": 0,
+            "args": [],
+            "name": "Port_uart_capability",
+            "index": 38,
+            "features": "CapabilityFeature_None"
+        },
+        "portSwapUSB": {
+            "args_count": 0,
+            "args": [],
+            "name": "Port_usb_capability",
+            "index": 39,
+            "features": "CapabilityFeature_None"
+        }
+    },
+    "Defines": {
+        "ActivityTimerMultiplier": {
+            "name": "ActivityTimerMultiplier_define",
+            "value": "1"
+        },
+        "ConnectEnabled": {
+            "name": "ConnectEnabled_define",
+            "value": "1"
+        },
+        "DelayedCapabilitiesStackSize": {
+            "name": "ResultCapabilityStackSize_define",
+            "value": "10"
+        },
+        "ISSILedMask1": {
+            "name": "ISSILedMask1_define",
+            "value": " \\\n\t0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, /* CS1 -> CS16 (SW1  -> SW4)  */ \\\n\t0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, /* CS1 -> CS16 (SW5  -> SW8)  */ \\\n\t0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, /* CS1 -> CS16 (SW9  -> SW12) */ \\\n"
+        },
+        "ISSILedMask2": {
+            "name": "ISSILedMask2_define",
+            "value": " \\\n\t0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, /* CS1 -> CS16 (SW1  -> SW4)  */ \\\n\t0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, /* CS1 -> CS16 (SW5  -> SW8)  */ \\\n\t0xFF, 0xFF, 0x7F, 0x00, 0x7F, 0x00, 0x7F, 0x00, /* CS1 -> CS16 (SW9  -> SW12) */ \\\n"
+        },
+        "ISSILedMask3": {
+            "name": "ISSILedMask3_define",
+            "value": " \\\n\t0xFF, 0xFF, /* C1-1 -> C1-16 */ \\\n\t0xFF, 0xFF, /* C2-1 -> C2-16 */ \\\n\t0xFF, 0xFF, /* C3-1 -> C3-16 */ \\\n\t0xFF, 0xFF, /* C4-1 -> C4-16 */ \\\n\t0xFF, 0xFF, /* C5-1 -> C5-16 */ \\\n\t0xFF, 0xFF, /* C6-1 -> C6-16 */ \\\n\t0xFF, 0xFF, /* C7-1 -> C7-16 */ \\\n\t0xFF, 0xFF, /* C8-1 -> C8-16 */ \\\n\t0xFF, 0xFF, /* C9-1 -> C9-16 */ \\\n"
+        },
+        "ISSILedMask4": {
+            "name": "ISSILedMask4_define",
+            "value": " \\\n\t0xFF, 0xFF, /* C1-1 -> C1-16 */ \\\n\t0xFF, 0xFF, /* C2-1 -> C2-16 */ \\\n\t0xFF, 0xFF, /* C3-1 -> C3-16 */ \\\n\t0xFF, 0xFF, /* C4-1 -> C4-16 */ \\\n\t0xFF, 0xFF, /* C5-1 -> C5-16 */ \\\n\t0xFF, 0xFF, /* C6-1 -> C6-16 */ \\\n\t0xFF, 0xFF, /* C7-1 -> C7-16 */ \\\n\t0xFF, 0xFF, /* C8-1 -> C8-16 */ \\\n\t0xFF, 0xFF, /* C9-1 -> C9-16 */ \\\n"
+        },
+        "ISSI_Chip_31FL3731": {
+            "name": "ISSI_Chip_31FL3731_define",
+            "value": "0"
+        },
+        "ISSI_Chip_31FL3732": {
+            "name": "ISSI_Chip_31FL3732_define",
+            "value": "0"
+        },
+        "ISSI_Chip_31FL3733": {
+            "name": "ISSI_Chip_31FL3733_define",
+            "value": "1"
+        },
+        "ISSI_Chip_31FL3736": {
+            "name": "ISSI_Chip_31FL3736_define",
+            "value": "0"
+        },
+        "ISSI_Chips": {
+            "name": "ISSI_Chips_define",
+            "value": "2"
+        },
+        "ISSI_Enable": {
+            "name": "ISSI_Enable_define",
+            "value": "1"
+        },
+        "ISSI_FrameRate_ms": {
+            "name": "ISSI_FrameRate_ms_define",
+            "value": "10"
+        },
+        "ISSI_Global_Brightness": {
+            "name": "ISSI_Global_Brightness_define",
+            "value": "25"
+        },
+        "ISSI_HardwareShutdownPin": {
+            "name": "ISSI_HardwareShutdownPin_define",
+            "value": "gpio(B,16)"
+        },
+        "ISSI_I2C_Buses": {
+            "name": "ISSI_I2C_Buses_define",
+            "value": "2"
+        },
+        "ISSI_I2C_FirstBus": {
+            "name": "ISSI_I2C_FirstBus_define",
+            "value": "0"
+        },
+        "ISSI_IIRSTPin": {
+            "name": "ISSI_IIRSTPin_define",
+            "value": "gpio(A,5)"
+        },
+        "KLL_LED_FadeActiveLayerInvert": {
+            "name": "KLL_LED_FadeActiveLayerInvert_define",
+            "value": "0"
+        },
+        "LED_MapCh1_Addr": {
+            "name": "LED_MapCh1_Addr_define",
+            "value": "ISSI_Ch1"
+        },
+        "LED_MapCh1_Bus": {
+            "name": "LED_MapCh1_Bus_define",
+            "value": "0"
+        },
+        "LED_MapCh2_Addr": {
+            "name": "LED_MapCh2_Addr_define",
+            "value": "ISSI_Ch1"
+        },
+        "LED_MapCh2_Bus": {
+            "name": "LED_MapCh2_Bus_define",
+            "value": "1"
+        },
+        "LED_MapCh3_Addr": {
+            "name": "LED_MapCh3_Addr_define",
+            "value": "ISSI_Ch3"
+        },
+        "LED_MapCh3_Bus": {
+            "name": "LED_MapCh3_Bus_define",
+            "value": "0"
+        },
+        "LED_MapCh4_Addr": {
+            "name": "LED_MapCh4_Addr_define",
+            "value": "ISSI_Ch4"
+        },
+        "LED_MapCh4_Bus": {
+            "name": "LED_MapCh4_Bus_define",
+            "value": "0"
+        },
+        "MinDebounceTime": {
+            "name": "MinDebounceTime_define",
+            "value": "6"
+        },
+        "NoneScanModule": {
+            "name": "NoneScanModule_define",
+            "value": "0"
+        },
+        "Output_HIDIOEnabled": {
+            "name": "Output_HIDIOEnabled_define",
+            "value": "1"
+        },
+        "Output_USBEnabled": {
+            "name": "Output_USBEnabled_define",
+            "value": "1"
+        },
+        "PeriodicCycles": {
+            "name": "PeriodicCycles_define",
+            "value": "1000"
+        },
+        "Pixel_AnimationStackSize": {
+            "name": "Pixel_AnimationStackSize_define",
+            "value": "20"
+        },
+        "Pixel_HardCode_ChanWidth": {
+            "name": "Pixel_HardCode_ChanWidth_define",
+            "value": "8"
+        },
+        "Pixel_HardCode_Channels": {
+            "name": "Pixel_HardCode_Channels_define",
+            "value": "3"
+        },
+        "Pixel_MapEnabled": {
+            "name": "Pixel_MapEnabled_define",
+            "value": "1"
+        },
+        "Pixel_Test_Mode": {
+            "name": "Pixel_Test_Mode_define",
+            "value": "PixelTest_Off"
+        },
+        "PressReleaseCache": {
+            "name": "PressReleaseCache_define",
+            "value": "1"
+        },
+        "ResultMacroBufferSize": {
+            "name": "ResultMacroBufferSize_define",
+            "value": "50"
+        },
+        "ScanCodeMatrixInvert": {
+            "name": "ScanCodeMatrixInvert_define",
+            "value": "0"
+        },
+        "ScanCodeMatrixType": {
+            "name": "ScanCodeMatrixType_define",
+            "value": "GPIO_Config_Pulldown"
+        },
+        "ScanCodeRemapping": {
+            "name": "ScanCodeRemapping_define",
+            "value": "0"
+        },
+        "ScanCodeRemappingMatrix": {
+            "name": "ScanCodeRemappingMatrix_define",
+            "value": ""
+        },
+        "ScanCodeSenseList": {
+            "name": "ScanCodeSenseList_define",
+            "value": " \\\n\tgpio(D,5), \\\n\tgpio(D,6), \\\n\tgpio(D,7), \\\n\tgpio(C,1), \\\n\tgpio(C,2), \\\n\tgpio(C,3), \\\n\tgpio(C,4), \\\n\tgpio(C,5), \\\n\tgpio(C,6), \\\n\tgpio(C,7) \\\n"
+        },
+        "ScanCodeStrobeList": {
+            "name": "ScanCodeStrobeList_define",
+            "value": " \\\n\tgpio(B,2), \\\n\tgpio(B,3), \\\n\tgpio(B,18), \\\n\tgpio(B,19), \\\n\tgpio(C,0), \\\n\tgpio(C,8), \\\n\tgpio(C,9), \\\n\tgpio(D,0), \\\n\tgpio(D,1), \\\n\tgpio(D,4) \\\n"
+        },
+        "StrobeDelay": {
+            "name": "StrobeDelay_define",
+            "value": "0"
+        },
+        "UARTConnectBaud": {
+            "name": "UARTConnectBaud_define",
+            "value": "1"
+        },
+        "UARTConnectBaudFine": {
+            "name": "UARTConnectBaudFine_define",
+            "value": "0"
+        },
+        "UARTConnectBufSize": {
+            "name": "UARTConnectBufSize_define",
+            "value": "128"
+        },
+        "UARTConnectCableCheckLength": {
+            "name": "UARTConnectCableCheckLength_define",
+            "value": "2"
+        },
+        "WakeupPinList": {
+            "name": "WakeupPinList_define",
+            "value": ""
+        },
+        "adcPriority": {
+            "name": "ADC_Priority_define",
+            "value": "100"
+        },
+        "dacPriority": {
+            "name": "DAC_Priority_define",
+            "value": "151"
+        },
+        "defaultPriority": {
+            "name": "Default_Priority_define",
+            "value": "128"
+        },
+        "enableDeviceRestartOnUSBTimeout": {
+            "name": "enableDeviceRestartOnUSBTimeout_define",
+            "value": "0"
+        },
+        "enableKeyboard": {
+            "name": "enableKeyboard_define",
+            "value": "1"
+        },
+        "enableMouse": {
+            "name": "enableMouse_define",
+            "value": "1"
+        },
+        "enableRawIO": {
+            "name": "enableRawIO_define",
+            "value": "1"
+        },
+        "enableUSBLowPowerNegotiation": {
+            "name": "enableUSBLowPowerNegotiation_define",
+            "value": "0"
+        },
+        "enableUSBResume": {
+            "name": "enableUSBResume_define",
+            "value": "1"
+        },
+        "enableUSBSuspend": {
+            "name": "enableUSBSuspend_define",
+            "value": "1"
+        },
+        "entropyPriority": {
+            "name": "Entropy_Priority_define",
+            "value": "200"
+        },
+        "flashModeEnabled": {
+            "name": "flashModeEnabled_define",
+            "value": "0"
+        },
+        "gamma_enabled": {
+            "name": "Pixel_gamma_default_define",
+            "value": "1"
+        },
+        "gpioPriority": {
+            "name": "GPIO_Priority_define",
+            "value": "108"
+        },
+        "i2cPriority": {
+            "name": "I2C_Priority_define",
+            "value": "150"
+        },
+        "indexWordSize": {
+            "name": "IndexWordSize_define",
+            "value": "16"
+        },
+        "keyboardLocale": {
+            "name": "KeyboardLocale_define",
+            "value": "0"
+        },
+        "latencyResources": {
+            "name": "LatencyMeasurementCount_define",
+            "value": "10"
+        },
+        "ledDebugInverse": {
+            "name": "DebugLED_Inverse_define",
+            "value": "0"
+        },
+        "ledDebugPin": {
+            "name": "DebugLED_ErrorPin_define",
+            "value": "gpio(A,5)"
+        },
+        "periodicPriority": {
+            "name": "Periodic_Priority_define",
+            "value": "200"
+        },
+        "portCrossInterPin1": {
+            "name": "Port_CrossInterPin1_define",
+            "value": "gpio(A,13)"
+        },
+        "portSwapInterPin1": {
+            "name": "Port_SwapInterpPin1_define",
+            "value": "gpio(A,12)"
+        },
+        "portSwapMode": {
+            "name": "Port_SwapMode_define",
+            "value": "USBInterSwap"
+        },
+        "portSwapUSBPin1": {
+            "name": "Port_SwapUSBPin1_define",
+            "value": "gpio(A,4)"
+        },
+        "portSwapUSBPin2": {
+            "name": "Port_SwapUSBPin2_define",
+            "value": "{}"
+        },
+        "portSwapUSBPin3": {
+            "name": "Port_SwapUSBPin3_define",
+            "value": "{}"
+        },
+        "portSwapUSBPin4": {
+            "name": "Port_SwapUSBPin4_define",
+            "value": "{}"
+        },
+        "rawIOLoopbackMode": {
+            "name": "rawIOLoopbackMode_define",
+            "value": "0"
+        },
+        "releaseUSBKeyDisable": {
+            "name": "disable_usbCodeRelease_define",
+            "value": "0"
+        },
+        "secureBootloaderEnabled": {
+            "name": "SecureBootloader_define",
+            "value": "0"
+        },
+        "spiPriority": {
+            "name": "SPI_Priority_define",
+            "value": "130"
+        },
+        "stateWordSize": {
+            "name": "StateWordSize_define",
+            "value": "16"
+        },
+        "uartPriority": {
+            "name": "UART_Priority_define",
+            "value": "111"
+        },
+        "usbIdle": {
+            "name": "USBIdle_define",
+            "value": "0"
+        },
+        "usbIdleForce": {
+            "name": "USBIdle_force_define",
+            "value": "1"
+        },
+        "usbPriority": {
+            "name": "USB_Priority_define",
+            "value": "112"
+        },
+        "usbProtocol": {
+            "name": "USBProtocol_define",
+            "value": "1"
+        }
+    },
+    "Layers": {
+        "0": {
+            ":0 S001": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 1,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 41,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x001 : U0x029;"
+            },
+            ":0 S002": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 2,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 58,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x002 : U0x03a;"
+            },
+            ":0 S003": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 3,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 59,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x003 : U0x03b;"
+            },
+            ":0 S004": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 4,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 60,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x004 : U0x03c;"
+            },
+            ":0 S005": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 5,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 61,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x005 : U0x03d;"
+            },
+            ":0 S006": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 6,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 62,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x006 : U0x03e;"
+            },
+            ":0 S007": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 7,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 63,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x007 : U0x03f;"
+            },
+            ":0 S008": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 8,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 64,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x008 : U0x040;"
+            },
+            ":0 S009": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 9,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 65,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x009 : U0x041;"
+            },
+            ":0 S010": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 10,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 66,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x00a : U0x042;"
+            },
+            ":0 S011": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 11,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 67,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x00b : U0x043;"
+            },
+            ":0 S012": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 12,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 68,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x00c : U0x044;"
+            },
+            ":0 S013": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 13,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 69,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x00d : U0x045;"
+            },
+            ":0 S014": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 14,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 70,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x00e : U0x046;"
+            },
+            ":0 S015": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 15,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 71,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x00f : U0x047;"
+            },
+            ":0 S016": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 16,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 72,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x010 : U0x048;"
+            },
+            ":0 S017": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 17,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 53,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x011 : U0x035;"
+            },
+            ":0 S018": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 18,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 30,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x012 : U0x01e;"
+            },
+            ":0 S019": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 19,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 31,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x013 : U0x01f;"
+            },
+            ":0 S020": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 20,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 32,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x014 : U0x020;"
+            },
+            ":0 S021": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 21,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 33,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x015 : U0x021;"
+            },
+            ":0 S022": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 22,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 34,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x016 : U0x022;"
+            },
+            ":0 S023": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 23,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 35,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x017 : U0x023;"
+            },
+            ":0 S024": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 24,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 36,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x018 : U0x024;"
+            },
+            ":0 S025": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 25,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 37,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x019 : U0x025;"
+            },
+            ":0 S026": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 26,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 38,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x01a : U0x026;"
+            },
+            ":0 S027": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 27,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 39,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x01b : U0x027;"
+            },
+            ":0 S028": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 28,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 45,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x01c : U0x02d;"
+            },
+            ":0 S029": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 29,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 46,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x01d : U0x02e;"
+            },
+            ":0 S031": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 31,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 42,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x01f : U0x02a;"
+            },
+            ":0 S033": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 33,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 73,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x021 : U0x049;"
+            },
+            ":0 S034": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 34,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 74,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x022 : U0x04a;"
+            },
+            ":0 S035": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 35,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 75,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x023 : U0x04b;"
+            },
+            ":0 S036": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 36,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 43,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x024 : U0x02b;"
+            },
+            ":0 S037": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 37,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 20,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x025 : U0x014;"
+            },
+            ":0 S038": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 38,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 26,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x026 : U0x01a;"
+            },
+            ":0 S039": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 39,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 8,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x027 : U0x008;"
+            },
+            ":0 S040": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 40,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 21,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x028 : U0x015;"
+            },
+            ":0 S041": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 41,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 23,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x029 : U0x017;"
+            },
+            ":0 S042": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 42,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 28,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x02a : U0x01c;"
+            },
+            ":0 S043": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 43,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 24,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x02b : U0x018;"
+            },
+            ":0 S044": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 44,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 12,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x02c : U0x00c;"
+            },
+            ":0 S045": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 45,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 18,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x02d : U0x012;"
+            },
+            ":0 S046": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 46,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 19,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x02e : U0x013;"
+            },
+            ":0 S047": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 47,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 47,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x02f : U0x02f;"
+            },
+            ":0 S048": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 48,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 48,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x030 : U0x030;"
+            },
+            ":0 S049": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 49,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 49,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x031 : U0x031;"
+            },
+            ":0 S051": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 51,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 76,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x033 : U0x04c;"
+            },
+            ":0 S052": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 52,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 77,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x034 : U0x04d;"
+            },
+            ":0 S053": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 53,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 78,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x035 : U0x04e;"
+            },
+            ":0 S054": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 54,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "layerShift",
+                            "args": [
+                                {
+                                    "value": 1,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x036 : layerShift(1);"
+            },
+            ":0 S055": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 55,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 4,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x037 : U0x004;"
+            },
+            ":0 S056": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 56,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 22,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x038 : U0x016;"
+            },
+            ":0 S057": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 57,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 7,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x039 : U0x007;"
+            },
+            ":0 S058": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 58,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 9,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03a : U0x009;"
+            },
+            ":0 S059": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 59,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 10,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03b : U0x00a;"
+            },
+            ":0 S060": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 60,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 11,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03c : U0x00b;"
+            },
+            ":0 S061": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 61,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 13,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03d : U0x00d;"
+            },
+            ":0 S062": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 62,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 14,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03e : U0x00e;"
+            },
+            ":0 S063": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 63,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 15,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03f : U0x00f;"
+            },
+            ":0 S064": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 64,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 51,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x040 : U0x033;"
+            },
+            ":0 S065": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 65,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 52,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x041 : U0x034;"
+            },
+            ":0 S067": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 67,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 40,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x043 : U0x028;"
+            },
+            ":0 S069": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 69,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 225,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x045 : U0x0e1;"
+            },
+            ":0 S071": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 71,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 29,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x047 : U0x01d;"
+            },
+            ":0 S072": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 72,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 27,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x048 : U0x01b;"
+            },
+            ":0 S073": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 73,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 6,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x049 : U0x006;"
+            },
+            ":0 S074": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 74,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 25,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x04a : U0x019;"
+            },
+            ":0 S075": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 75,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 5,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x04b : U0x005;"
+            },
+            ":0 S076": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 76,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 17,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x04c : U0x011;"
+            },
+            ":0 S077": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 77,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 16,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x04d : U0x010;"
+            },
+            ":0 S078": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 78,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 54,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x04e : U0x036;"
+            },
+            ":0 S079": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 79,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 55,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x04f : U0x037;"
+            },
+            ":0 S080": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 80,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 56,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x050 : U0x038;"
+            },
+            ":0 S082": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 82,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 229,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x052 : U0x0e5;"
+            },
+            ":0 S084": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 84,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 82,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x054 : U0x052;"
+            },
+            ":0 S085": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 85,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 224,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x055 : U0x0e0;"
+            },
+            ":0 S086": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 86,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 226,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x056 : U0x0e2;"
+            },
+            ":0 S087": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 87,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 227,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x057 : U0x0e3;"
+            },
+            ":0 S088": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 88,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 44,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x058 : U0x02c;"
+            },
+            ":0 S089": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 89,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 230,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x059 : U0x0e6;"
+            },
+            ":0 S090": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 90,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 231,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x05a : U0x0e7;"
+            },
+            ":0 S091": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 91,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 101,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x05b : U0x065;"
+            },
+            ":0 S092": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 92,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 228,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x05c : U0x0e4;"
+            },
+            ":0 S093": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 93,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 80,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x05d : U0x050;"
+            },
+            ":0 S094": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 94,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 81,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x05e : U0x051;"
+            },
+            ":0 S095": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 95,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 79,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x05f : U0x04f;"
+            }
+        },
+        "1": {
+            ":0 S001": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 1,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "flashMode",
+                            "args": []
+                        }
+                    ]
+                ],
+                "kll": "S0x001 : flashMode();"
+            },
+            ":0 S003": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 3,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "layerLock",
+                            "args": [
+                                {
+                                    "value": 2,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "layer2_animation",
+                            "setting": "A[layer2_animation](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x003 : layerLock(2), A[layer2_animation](replace:clearactive,start);"
+            },
+            ":0 S016": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 16,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 177,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x010 : CONS0x0b1;"
+            },
+            ":0 S018": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 18,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 226,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x012 : CONS0x0e2;"
+            },
+            ":0 S019": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 19,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 234,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x013 : CONS0x0ea;"
+            },
+            ":0 S020": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 20,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 233,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x014 : CONS0x0e9;"
+            },
+            ":0 S033": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 33,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 205,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x021 : CONS0x0cd;"
+            },
+            ":0 S034": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 34,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 550,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x022 : CONS0x226;"
+            },
+            ":0 S035": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 35,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 233,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x023 : CONS0x0e9;"
+            },
+            ":0 S037": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 37,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 227,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 226,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 80,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x025 : U0x0e3 + U0x0e2 + U0x050;"
+            },
+            ":0 S038": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 38,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 224,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 82,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x026 : U0x0e0 + U0x052;"
+            },
+            ":0 S039": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 39,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 227,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 226,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 79,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x027 : U0x0e3 + U0x0e2 + U0x04f;"
+            },
+            ":0 S051": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 51,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 182,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x033 : CONS0x0b6;"
+            },
+            ":0 S052": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 52,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 181,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x034 : CONS0x0b5;"
+            },
+            ":0 S053": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 53,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "ConsCode",
+                            "uid": 234,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x035 : CONS0x0ea;"
+            },
+            ":0 S055": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 55,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 224,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 80,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x037 : U0x0e0 + U0x050;"
+            },
+            ":0 S056": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 56,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 224,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 81,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x038 : U0x0e0 + U0x051;"
+            },
+            ":0 S057": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 57,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 224,
+                            "schedule": []
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 79,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x039 : U0x0e0 + U0x04f;"
+            },
+            ":0 S060": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 60,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 80,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03c : U0x050;"
+            },
+            ":0 S061": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 61,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 81,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03d : U0x051;"
+            },
+            ":0 S062": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 62,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 82,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03e : U0x052;"
+            },
+            ":0 S063": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 63,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "USBCode",
+                            "uid": 79,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x03f : U0x04f;"
+            }
+        },
+        "2": {
+            ":0 S003": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 3,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "layerLock",
+                            "args": [
+                                {
+                                    "value": 2,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x003 : layerLock(2);"
+            },
+            ":0 S018": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 18,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "rainbow_wave",
+                            "setting": "A[rainbow_wave](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x012 : A[rainbow_wave](replace:clearactive,start);"
+            },
+            ":0 S019": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 19,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "miami_wave",
+                            "setting": "A[miami_wave](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x013 : A[miami_wave](replace:clearactive,start);"
+            },
+            ":0 S020": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 20,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "single_color",
+                            "setting": "A[single_color](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x014 : A[single_color](replace:clearactive,start);"
+            },
+            ":0 S021": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 21,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "single_color_orange",
+                            "setting": "A[single_color_orange](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x015 : A[single_color_orange](replace:clearactive,start);"
+            },
+            ":0 S022": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 22,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "single_color_white",
+                            "setting": "A[single_color_white](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x016 : A[single_color_white](replace:clearactive,start);"
+            },
+            ":0 S023": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 23,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "layer2_animation",
+                            "setting": "A[layer2_animation](replace:clearactive,start)",
+                            "state": null
+                        },
+                        {
+                            "type": "USBCode",
+                            "uid": 36,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "kll": "S0x017 : A[layer2_animation](replace:clearactive,start) + U0x024;"
+            },
+            ":0 S025": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 25,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "strobeSlow",
+                            "setting": "A[strobeSlow](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x019 : A[strobeSlow](replace:clearactive,start);"
+            },
+            ":0 S026": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 26,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "strobeFast",
+                            "setting": "A[strobeFast](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x01a : A[strobeFast](replace:clearactive,start);"
+            },
+            ":0 S027": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 27,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Animation",
+                            "modifiers": [
+                                {
+                                    "name": "replace",
+                                    "value": {
+                                        "arg": "clearactive",
+                                        "subarg": null
+                                    }
+                                },
+                                {
+                                    "name": "start",
+                                    "value": {
+                                        "arg": null,
+                                        "subarg": null
+                                    }
+                                }
+                            ],
+                            "frameoptions": [],
+                            "schedule": [],
+                            "name": "test_animation",
+                            "setting": "A[test_animation](replace:clearactive,start)",
+                            "state": null
+                        }
+                    ]
+                ],
+                "kll": "S0x01b : A[test_animation](replace:clearactive,start);"
+            },
+            ":0 S043": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 43,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "ledControl",
+                            "args": [
+                                {
+                                    "value": 3,
+                                    "type": "CapArgValue"
+                                },
+                                {
+                                    "value": 0,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x02b : ledControl(3,0);"
+            },
+            ":0 S044": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 44,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "ledControl",
+                            "args": [
+                                {
+                                    "value": 4,
+                                    "type": "CapArgValue"
+                                },
+                                {
+                                    "value": 255,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x02c : ledControl(4,255);"
+            },
+            ":0 S045": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 45,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "ledControl",
+                            "args": [
+                                {
+                                    "value": 0,
+                                    "type": "CapArgValue"
+                                },
+                                {
+                                    "value": 15,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x02d : ledControl(0,15);"
+            },
+            ":0 S046": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 46,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "ledControl",
+                            "args": [
+                                {
+                                    "value": 1,
+                                    "type": "CapArgValue"
+                                },
+                                {
+                                    "value": 15,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x02e : ledControl(1,15);"
+            },
+            ":0 S061": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 61,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "gamma",
+                            "args": [
+                                {
+                                    "value": 0,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x03d : gamma(0);"
+            },
+            ":0 S062": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 62,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "gamma",
+                            "args": [
+                                {
+                                    "value": 1,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x03e : gamma(1);"
+            },
+            ":0 S063": {
+                "trigger": [
+                    [
+                        {
+                            "type": "ScanCode",
+                            "uid": 63,
+                            "schedule": []
+                        }
+                    ]
+                ],
+                "result": [
+                    [
+                        {
+                            "type": "Capability",
+                            "name": "gamma",
+                            "args": [
+                                {
+                                    "value": 2,
+                                    "type": "CapArgValue"
+                                }
+                            ]
+                        }
+                    ]
+                ],
+                "kll": "S0x03f : gamma(2);"
+            }
+        }
+    },
+    "CodeLookup": {
+        "Animation": "animationIndex",
+        "Capability": null,
+        "ConsCode": "consCtrlOut",
+        "Layer": "layerShift",
+        "LayerShift": "layerShift",
+        "LayerLatch": "layerLatch",
+        "LayerLock": "layerLock",
+        "None": "none",
+        "ScanCode": null,
+        "SysCode": "sysCtrlOut",
+        "USBCode": "usbKeyOut"
+    }
+}
